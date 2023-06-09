@@ -11,12 +11,12 @@ int main()
 {
     setlocale(LC_ALL , "ru");
     int a , b , c;
-    cout << "Введите 3 числа: " << endl;
+    cout << "Г‚ГўГҐГ¤ГЁГІГҐ 3 Г·ГЁГ±Г«Г : " << endl;
     cin >> a >> b >> c;
 
-    cout << a << " оно положительное? " << isPositive(a) << endl;
-    cout << b << " оно положительное? " << isPositive(b) << endl;
-    cout << c << " оно положительное? " << isPositive(c) << endl;
+    cout << a << " РћРЅРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ? " << isPositive(a) << endl;
+    cout << b << " РћРЅРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ? " << isPositive(b) << endl;
+    cout << c << " РћРЅРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ? " << isPositive(c) << endl;
 
     return 0;
 }
